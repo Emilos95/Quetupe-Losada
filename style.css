@@ -1,1 +1,57 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+    background-color: #FFF3A3;
+}
+
+.articulos .imagenes {
+    width: 200px;
+    height: 200px;
+    padding: 35px;
+}
+
+.fondo {
+    color: #F4B7F3;
+    background-color: #FFF3A3;
+    font-weight: 50px;
+}
+
+h2,
+h3 {
+    color: #FFF3A3;
+    background-color: #F4B7F3;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #F4B7F3;
+    background-color: #FFF3A3;
+    text-align: center;
+}
+
+legend {
+    font: 30px italic bold;
+}
+
+footer {
+    background: #CBB4F8;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.videos {
+    color: #FFF3A3;
+    background-color: #F4B7F3;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+}
+
+
+/*# sourceMappingURL=style.css.map */
