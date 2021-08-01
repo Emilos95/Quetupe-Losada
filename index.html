@@ -6,38 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="main.css" type="text/css" media=screen>
     <link rel="stylesheet" href="style.css" type="text/css" media=screen>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
 
     <title>Que Tupé</title>
 </head>
 
-<body>
+<body class="fondo">
 
     <header>
-
-        <!--         <img src="Imagenes\1.png " alt="Que Tupe " width="90 " height="90 ">
-
-        <nav>
-            <ul>
-                <li class="menunav">
-                    <a href="index.html">Inicio</a>
-                </li>
-                <li class="menunav">
-                    <a href="sobre_nosotros.html"> Sobre Nosotros</a>
-                </li>
-                <li class="menunav">
-                    <a href="articulos.html">Articulos</a>
-                </li>
-                <li class="menunav">
-                    <a href="contact.html">Contacto</a></li>
-                <li class="menunav">
-                    <a href="viendo.html">Videos</a></li>
-
-            </ul>
-        </nav> -->
-
         <nav class="navbar navbar-expand-lg navbar-light ">
             <img src="Imagenes\1.png " alt="Que Tupe " width="90 " height="90 ">
 
@@ -50,117 +28,97 @@
                     <a class="nav-item nav-link active" href="index.html">Inicio <span class="sr-only"></span></a>
                     <a class="nav-item nav-link" href="sobre_nosotros.html">Sobre Nosotros</a>
                     <a class="nav-item nav-link" href="articulos.html">Articulos</a>
+                    <a class="nav-item nav-link" href="viendo.html">Videos</a>
                     <a class="nav-item nav-link" href="contact.html">Contacto</a>
                 </div>
             </div>
         </nav>
 
-
     </header>
 
 
-    <!--    <div class="indexGrid">
-
-        <section id="novedades ">
-            <div class="fondo">
-                <h2 class="fuente ">novedades</h2>
-
-                <img class="articulos " src="Imagenes\Juego-memoria.png " alt="Juego memoria "> Juego Memoria
-                <img class="articulos " src="Imagenes\10.png " alt="Posa Platos "> Posa Platos
-                <img class="articulos " src="Imagenes\portavasos.png " alt="Portavasos "> Portavasos
-
-            </div>
 
 
-        </section>
-
-        <section id="decoracion">
-            <div class="fondo">
-                <h2 class="fuente ">Decoracion</h2>
-
-                <img class="articulos " src="Imagenes\lapicero.png " alt="Lapicero "> Lapicero
-                <img class="articulos " src="Imagenes\11.png " alt="Posa Platos "> Posaplatos
-                <img class="articulos " src="Imagenes\portavasos-muestra.png " alt="Portavasos "> Portavasos
-
-            </div>
-
-        </section>
-
-        <section id="juegos">
-            <div class="fondo">
-                <h2 class="fuente ">Juegos Didacticos </h2>
-
-                <img class="articulos " src="Imagenes\Juego-memoria.png " alt="Juego memoria "> Juego Memoria
-                <img class="articulos " src="Imagenes\juego-n.jpg" alt="Rompecabezas"> Rompecabezas
-                <img class="articulos " src="Imagenes\Rompecabezas.jpg" alt="Rompecabezas ">Rompecabezas
-
-            </div>
-
-        </section>
 
 
-    </div> -->
+    <section class="container-lg w-75  ">
+        <h2>Novedades</h2>
+        <div class="carousel slide " data-bs-ride="carousel ">
 
-    <div class="container fondo">
-        <div class="row">
-            <h2 class="fuente ">novedades</h2>
-            <div class="col">
-                <img class="articulos " src="Imagenes\Juego-memoria.png " alt="Juego memoria "> Juego Memoria
-                <img class="articulos " src="Imagenes\10.png " alt="Posa Platos "> Posa Platos
-                <img class="articulos " src="Imagenes\portavasos.png " alt="Portavasos "> Portavasos </div>
-        </div>
-        <div class="row">
-            <h2 class="fuente ">Decoracion</h2>
-            <div class="col">
-                <img class="articulos" src="Imagenes\lapicero.png " alt="Lapicero "> Lapicero
-                <img class="articulos" src="Imagenes\11.png " alt="Posa Platos "> Posaplatos
-                <img class="articulos" src="Imagenes\portavasos-muestra.png " alt="Portavasos "> Portavasos
-            </div>
-            <div class="row">
-                <h2 class="fuente ">Juegos Didacticos </h2>
-                <div class="col">
-                    <img class="articulos " src="Imagenes\Juego-memoria.png " alt="Juego memoria "> Juego Memoria
-                    <img class="articulos " src="Imagenes\juego-n.jpg" alt="Rompecabezas"> Rompecabezas
-                    <img class="articulos " src="Imagenes\Rompecabezas.jpg" alt="Rompecabezas ">Rompecabezas
+            <div class="carousel-inner ">
+                <div class="carousel-item active ">
+                    <img src="Imagenes\Juego-memoria.png " class="d-block w-100 " alt="... ">
                 </div>
-
+                <div class="carousel-item ">
+                    <img src="Imagenes\lapicero.png " class="d-block w-100 " alt="... ">
+                </div>
+                <div class="carousel-item ">
+                    <img src="Imagenes\portavasos-muestra.png " class="d-block w-100 " alt="... ">
+                </div>
             </div>
         </div>
 
+    </section>
+
+
+
+    <footer>
+        <!--         <section class="fondo ">
+            <form action=" " class="centrado ">
+                <ul class="listaArticulos ">
+                    <legend>Newsletter</legend>
+                    <li>
+                        <label for="name ">Nombre: </label>
+                        <input type="text " name="name " placeholder="Nombre ">
+                    </li>
+
+                    <li>
+                        <label for="mail ">Email: </label>
+                        <input type="mail " name="mail " placeholder="Email ">
+                    </li>
+
+                </ul>
+                <input type="submit " value="Enviar ">
+            </form> -->
+
+        <form>
+            <legend>Newsletter</legend>
+            <div class="row lg-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Nombre</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputPassword3">
+                </div>
+            </div>
+            <div class="row lg-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3">
+                </div>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
 
 
 
 
 
-        <footer>
-            <section class="fondo ">
-                <form action=" " class="centrado ">
-                    <ul class="listaArticulos ">
-                        <legend>Newsletter</legend>
-                        <li>
-                            <label for="name ">Nombre: </label>
-                            <input type="text " name="name " placeholder="Nombre ">
-                        </li>
-
-                        <li>
-                            <label for="mail ">Email: </label>
-                            <input type="mail " name="mail " placeholder="Email ">
-                        </li>
-
-                    </ul>
-                    <input type="submit" value="Enviar">
-                </form>
 
 
 
-            </section>
-        </footer>
+        </section>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
 </body>
 
 </html>
