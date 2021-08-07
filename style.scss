@@ -1,69 +1,76 @@
-$Amarillo: #FFF3A3;
-$rosa:#F4B7F3;
-$TamañoFuente:50px;
-$fuente:30px italic bold;
-$violeta:#CBB4F8;
-body {
-    background-color: $Amarillo;
-}
-
-@mixin FrosaLamarrillo {
-    color: $rosa;
-    background-color: $Amarillo;
-}
-
-@mixin FamarilloLrosa {
-    color: $Amarillo;
-    background-color: $rosa;
-}
-
-@mixin Tamaños {
-    width: 200px;
-    height: 200px;
-    padding: 35px;
-}
-
-@mixin Padding {
-    padding-top: 35px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.articulos .imagenes {
-    @include Tamaños();
-}
-
-.fondo {
-    @include FrosaLamarrillo();
-    font-weight: $TamañoFuente;
-}
-
-h2,
-h3 {
-    @include FamarilloLrosa();
-    text-align: center;
-}
-
-h1 {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    @include FrosaLamarrillo();
-    text-align: center;
-}
-
-legend {
-    font: $fuente
-}
-
-footer {
-    background: $violeta;
-    @include Padding();
-}
-
-.videos {
-    @include FamarilloLrosa();
-    @include Padding();
-    justify-content: center;
-    text-align: center;
-    font-weight: 800;
-}
+    $Amarillo: #FFF3A3;
+    $rosa:#F4B7F3;
+    $TamañoFuente:50px;
+    $fuente:30px italic bold;
+    $violeta:#CBB4F8;
+    body {
+        background-color: $Amarillo;
+    }
+    
+    @mixin FrosaLamarrillo {
+        color: $rosa;
+        background-color: $Amarillo;
+    }
+    
+    @mixin FamarilloLrosa {
+        color: $Amarillo;
+        background-color: $rosa;
+    }
+    
+    @mixin Tamaños {
+        width: 200px;
+        height: 200px;
+        padding: 35px;
+    }
+    
+    @mixin Padding {
+        padding-top: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .articulos .imagenes {
+        @include Tamaños();
+        width: 200px;
+        height: 200px;
+        padding: 35px;
+    }
+    
+    .fondo {
+        @include FrosaLamarrillo();
+        font-weight: $TamañoFuente;
+    }
+    
+    .cardFondo {
+        @include FamarilloLrosa();
+    }
+    
+    h2,
+    h3 {
+        @include FamarilloLrosa();
+        text-align: center;
+    }
+    
+    h1 {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        @include FrosaLamarrillo();
+        text-align: center;
+    }
+    
+    legend {
+        font: $fuente
+    }
+    
+    footer {
+        background: $violeta;
+        @include Padding();
+    }
+    
+    .videos {
+        @include FamarilloLrosa();
+        @include Padding();
+        justify-content: center;
+        text-align: center;
+        font-weight: 800;
+    }

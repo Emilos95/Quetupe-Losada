@@ -36,9 +36,7 @@ h3 {
 }
 
 .articulos {
-    width: 200px;
-    height: 200px;
-    padding: 35px;
+    Quetupe+Losada\Imagenes\Rompecabezas.jpg
 } */
 
 .sobreNosotros {
@@ -134,30 +132,72 @@ section#juegos {
 }
 
 
-/* .videos {
-    justify-content: center;
-    text-align: center;
-    font-weight: 800;
-    padding-top: 35px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #FFF3A3;
-    color: #F4B7F3;
-} */
-
-
 /* footer {
     padding-top: 35px;
     padding-left: 20px;
     padding-right: 20px;
 } */
 
+.tracking-in-expand {
+    -webkit-animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
 
-/* @media screen and (max-width:768px) {
-    .articulos {
-        width: 50px;
-        height: 50px;
-        padding: 15px;
-        font-size: 5px;
+@-webkit-keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
     }
-} */
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.focus-in-expand {
+    -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes focus-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes focus-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
