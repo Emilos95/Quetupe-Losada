@@ -34,7 +34,8 @@
     }
     
     .fondo {
-        @include FamarilloLrosa();
+        background-color: $Amarillo;
+        color: $rosa2;
         font-weight: bolder;
     }
     
