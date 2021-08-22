@@ -1,20 +1,17 @@
     $Amarillo: #FFF3A3;
     $rosa:#F4B7F3;
+    $rosa2:#d664d4;
     $TamañoFuente:50px;
     $fuente:30px italic bold;
     $violeta:#CBB4F8;
-    body {
-        background-color: $Amarillo;
-    }
-    
     @mixin FrosaLamarrillo {
-        color: $rosa;
-        background-color: $Amarillo;
+        color: $Amarillo;
+        background-color: $rosa;
     }
     
     @mixin FamarilloLrosa {
-        color: $Amarillo;
-        background-color: $rosa;
+        color: $rosa;
+        background-color: $Amarillo;
     }
     
     @mixin Tamaños {
@@ -37,18 +34,23 @@
     }
     
     .fondo {
-        @include FrosaLamarrillo();
-        font-weight: $TamañoFuente;
+        @include FamarilloLrosa();
+        font-weight: bolder;
     }
     
     .cardFondo {
-        @include FamarilloLrosa();
+        @include FrosaLamarrillo();
     }
     
-    h2,
-    h3 {
-        @include FamarilloLrosa();
+    h2 {
+        @include FrosaLamarrillo();
         text-align: center;
+    }
+    
+    h3 {
+        @include FrosaLamarrillo();
+        text-align: center;
+        padding: 0;
     }
     
     h1 {
@@ -63,7 +65,8 @@
     }
     
     footer {
-        background: $violeta;
+        background: $Amarillo;
+        color: $rosa2;
         @include Padding();
     }
     

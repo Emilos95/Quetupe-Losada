@@ -1,7 +1,3 @@
-body {
-  background-color: #FFF3A3;
-}
-
 .articulos .imagenes {
   width: 200px;
   height: 200px;
@@ -14,7 +10,7 @@ body {
 .fondo {
   color: #F4B7F3;
   background-color: #FFF3A3;
-  font-weight: 50px;
+  font-weight: bolder;
 }
 
 .cardFondo {
@@ -22,18 +18,24 @@ body {
   background-color: #F4B7F3;
 }
 
-h2,
-h3 {
+h2 {
   color: #FFF3A3;
   background-color: #F4B7F3;
   text-align: center;
 }
 
+h3 {
+  color: #FFF3A3;
+  background-color: #F4B7F3;
+  text-align: center;
+  padding: 0;
+}
+
 h1 {
   padding-top: 25px;
   padding-bottom: 25px;
-  color: #F4B7F3;
-  background-color: #FFF3A3;
+  color: #FFF3A3;
+  background-color: #F4B7F3;
   text-align: center;
 }
 
@@ -42,15 +44,16 @@ legend {
 }
 
 footer {
-  background: #CBB4F8;
+  background: #FFF3A3;
+  color: #d664d4;
   padding-top: 35px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 .videos {
-  color: #FFF3A3;
-  background-color: #F4B7F3;
+  color: #F4B7F3;
+  background-color: #FFF3A3;
   padding-top: 35px;
   padding-left: 20px;
   padding-right: 20px;

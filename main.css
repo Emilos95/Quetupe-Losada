@@ -10,50 +10,22 @@ header {
     color: #F4B7F3;
     position: sticky;
     top: 0px;
+    z-index: 99999;
 }
-
-
-/* h1 {
-    color: #FFF3A3;
-    background: #F4B7F3;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-h2,
-h3 {
-    color: #FFF3A3;
-    background: #F4B7F3;
-    text-align: center;
-} */
-
-
-/* .imagenes {
-    width: 200px;
-    height: 200px;
-    padding: 35px;
-}
-
-.articulos {
-    Quetupe+Losada\Imagenes\Rompecabezas.jpg
-} */
 
 .sobreNosotros {
-    color: #F4B7F3;
+    color: #d664d4;
     background: #FFF3A3;
     text-align: center;
     text-align: justify;
     padding: 20px;
     margin: 75px;
     font-family: 'Libre Franklin', sans-serif;
-    font-weight: 800;
+    font-weight: bold;
 }
 
-.menunav {
-    display: inline-block;
-    padding-left: 100px;
-    margin: 0px;
+.nav {
+    color: #d664d4;
 }
 
 .listaArticulos {
@@ -137,37 +109,6 @@ section#juegos {
     padding-left: 20px;
     padding-right: 20px;
 } */
-
-.tracking-in-expand {
-    -webkit-animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    animation: tracking-in-expand 1.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-
-@-webkit-keyframes tracking-in-expand {
-    0% {
-        letter-spacing: -0.5em;
-        opacity: 0;
-    }
-    40% {
-        opacity: 0.6;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes tracking-in-expand {
-    0% {
-        letter-spacing: -0.5em;
-        opacity: 0;
-    }
-    40% {
-        opacity: 0.6;
-    }
-    100% {
-        opacity: 1;
-    }
-}
 
 .focus-in-expand {
     -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
